@@ -1,0 +1,28 @@
+# 训练好的模型文件（很大）
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# 数据集和图片（如果很大）
+data/
+dataset/
+images/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+
+# Python 缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 系统文件
+Thumbs.db
+.DS_Store
